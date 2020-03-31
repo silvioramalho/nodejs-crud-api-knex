@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-crud-api-knex",
+  "version": "1.0.0",
+  "description": "This is a simple project, built on nodejs, to provide a simple sample of the CRUD API with knex, to help novice developers get started with this technology.",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.13",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
